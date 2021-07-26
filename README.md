@@ -6,6 +6,8 @@ This sample project could be helpful in seeing how our team has managed the hub 
 # Canvasapi
 The University of Central Florida has created a Canvas API wrapper that is a good resource to begin using the Canvas API. You can find more information about it on their [canvasapi Github Page](https://github.com/ucfopen/canvasapi) they also provide [documentation](https://canvasapi.readthedocs.io/en/latest/). To install this package, you can run `pip install canvasapi`.
 
+I have some additional Canvas scripts as a [separate repository](https://github.com/HenryAcevedo/canvas-scripts) if you are interested in other potential uses for Canvas API.
+
 
 # Using config.ini
 The reason I like using the config.ini is the ease of switching between production, test, and beta. If needed I can also delete my access token and replace it easily without having to change the token in every script that I have. In the Python file, you should have a couple of lines
